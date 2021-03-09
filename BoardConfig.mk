@@ -27,6 +27,9 @@ DEVICE_PATH := device/xiaomi/whyred
 # Assert
 TARGET_OTA_ASSERT_DEVICE := whyred
 
+# Build libhwui in performance mode
+HWUI_COMPILE_FOR_PERF := true
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
 TARGET_NO_BOOTLOADER := true
