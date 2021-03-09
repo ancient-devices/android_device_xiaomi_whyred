@@ -720,20 +720,20 @@ vendor/firmware/a540_gpmu.fw2
 vendor/lib/hw/keystore.sdm660.so
 vendor/lib64/hw/keystore.sdm660.so
 
-# Sensors
-vendor/bin/sensors.qti
-vendor/etc/sensors/hals.conf
-vendor/etc/sensors/sensor_def_qcomdev.conf
-vendor/lib/hw/activity_recognition.sdm660.so
-vendor/lib/libsensor_reg.so
-vendor/lib/libsensor1.so
-vendor/lib64/hw/activity_recognition.sdm660.so
-vendor/lib64/libsensor_reg.so
-vendor/lib64/libsensor1.so
+# Sensors - from LA.UM.8.2.r1-07400-sdm660.0
+vendor/bin/sensors.qti|2a5cee424e08848156865ea2291520cf7b4e6393
+vendor/etc/sensors/hals.conf|bf3677cbfa5ce5735662e8c259cb027969f65c87
+vendor/etc/sensors/sensor_def_qcomdev.conf|33214fd4ac19fc6ba500017095b205251573abea
+vendor/lib/hw/activity_recognition.sdm660.so|47c588e1bdb357f31721171dc1d6a781c743bd64
+vendor/lib/libsensor_reg.so|170c40b9b7d48c922cd3ca1a552a34311ee79799
+vendor/lib/libsensor1.so|b1b0dcb45432e51fabffe595010f35a017c7a3fd
+vendor/lib64/hw/activity_recognition.sdm660.so|d7dac1daafb812625094f5e85097c00fdc385da1
+vendor/lib64/libsensor_reg.so|be00c924983a2a279f799332cf2b262da9af78d1
+vendor/lib64/libsensor1.so|dac9d5fb1b5aacfa5bedf812ebdd04eadd0af2dc
 
-# Sensors - from PL2_sprout-user 10 QKQ1.190828.002 00WW_4_150
-vendor/lib/sensors.ssc.so|bee13b2ad7f1ef0d2cf63708fa38ad76877ea287
-vendor/lib64/sensors.ssc.so|42577aa881baa287ec037c0e59972ad0e0358b08
+# Sensors - from LA.UM.8.2.r1-07400-sdm660.0
+vendor/lib/sensors.ssc.so|2127a224529656d54b15177129ca6783784ccb24
+vendor/lib64/sensors.ssc.so|b53f9d8a5580feb9ca8f9e4efd080f76dc1d1588
 
 # Thermal
 vendor/bin/thermal-engine
