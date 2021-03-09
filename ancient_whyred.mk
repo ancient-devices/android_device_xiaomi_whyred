@@ -25,6 +25,9 @@ $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 # Inherit from whyred device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Inherit from custom vendor
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := true
 

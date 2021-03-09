@@ -143,10 +143,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 # Camera Shims
 PRODUCT_PACKAGES += \
     libcamera_sdm660_shim
