@@ -181,7 +181,8 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.qti.vendor \
     libtinyxml \
     libqdMetaData \
-    libqdMetaData.system
+    libqdMetaData.system \
+    libstagefright_enc_common
 
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0_32 \
