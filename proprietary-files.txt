@@ -738,8 +738,8 @@ vendor/lib64/libthermalioctl.so
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
 
-# Wifi - from jasmine V11.0.8.0.QDIMIXM
-vendor/bin/cnss-daemon|a371213adc8fc7677d519c8d942761ffeee0f345
+# Wifi - from LA.UM.8.2.r1-07400-sdm660.0
+vendor/bin/cnss-daemon|a9e67f6e242148ff773e5c16034fb83ec27287af
 
 # jasmine package version: V11.0.21.0.QDIMIXM, unless stated otherwise
 
