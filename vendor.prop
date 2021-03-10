@@ -162,6 +162,9 @@ vendor.vidc.dec.enable.downscalar=1
 vendor.vidc.enc.disable_bframes=1
 vendor.vidc.enc.disable.pq=true
 
+# MiuiCamera
+camera.shutter_sound.blacklist=com.android.camera
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
