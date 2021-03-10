@@ -18,6 +18,9 @@ persist.vendor.ims.disableIMSLogs=1
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 
+# Shutdown
+ro.build.shutdown_timeout=2
+
 # Touch improvements
 touch.pressure.scale=0.001 
 persist.sys.ui.hw=1 
