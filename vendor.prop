@@ -182,3 +182,9 @@ ro.vendor.sensors.mot_detect=true
 
 # Time
 persist.vendor.delta_time.enable=true
+
+# USB debugging at boot
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1
