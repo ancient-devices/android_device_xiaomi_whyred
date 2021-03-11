@@ -30,5 +30,8 @@
 # Root files
 /persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
 
+# Service HALs
+/(vendor|system/vendor)/bin/hw/android\.hardware\.authsecret@1\.0-service    u:object_r:hal_authsecret_default_exec:s0
+
 # Thermal
 /data/vendor/thermal(/.*)?                      u:object_r:thermal_data_file:s0
