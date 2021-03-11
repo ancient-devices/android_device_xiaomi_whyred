@@ -117,6 +117,8 @@ ro.charger.disable_init_blank=true
 ro.charger.enable_suspend=true
 
 # Display
+debug.cpurend.vsync=true
+debug.sf.disable_backpressure=0
 debug.sf.early_app_phase_offset_ns=500000
 debug.sf.early_gl_app_phase_offset_ns=500000
 debug.sf.early_gl_phase_offset_ns=3000000
