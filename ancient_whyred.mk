@@ -28,6 +28,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
+# Inherit MI Sound/Dirac
+$(call inherit-product-if-exists, vendor/dirac/dirac.mk)
+
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := true
 
