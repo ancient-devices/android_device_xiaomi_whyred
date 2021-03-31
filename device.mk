@@ -97,6 +97,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
+    libldacBT_dec \
     libsndmonitor
 
 PRODUCT_COPY_FILES += \
