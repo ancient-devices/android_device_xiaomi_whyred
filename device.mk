@@ -21,6 +21,9 @@
 # definition file).
 #
 
+# Properties
+include $(LOCAL_PATH)/default_prop.mk
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
