@@ -1,0 +1,3 @@
+# WFD
+persist.sys.wfd.virtual=0
+debug.sf.enable_hwc_vds=1
