@@ -1,3 +1,5 @@
 # WFD
 persist.sys.wfd.virtual=0
 debug.sf.enable_hwc_vds=1
+ro.hdmi.enable=true
+ro.hdmi.mirror.enable=true
