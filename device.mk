@@ -142,10 +142,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
-# Camera Shims
-PRODUCT_PACKAGES += \
-    libcamera_sdm660_shim
-
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0 \
     android.hardware.camera.device@3.5:64 \
@@ -200,10 +196,6 @@ PRODUCT_PACKAGES += \
 # Doze
 PRODUCT_PACKAGES += \
     XiaomiDoze
-
-# DPM
-PRODUCT_PACKAGES += \
-    libshim_dpmframework
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -401,6 +393,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl:64 \
     android.hardware.sensors@1.0-service
+
+# Shims
+PRODUCT_PACKAGES += \
+    libcamera_sdm660_shim \
+    libshim_dpmframework
 
 # Tethering
 PRODUCT_PACKAGES += \
