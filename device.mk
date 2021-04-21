@@ -97,6 +97,7 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default
 
 PRODUCT_PACKAGES += \
+    libbthost_if \
     libhdmiedid \
     libhfp \
     libldacBT_dec \
