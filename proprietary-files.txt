@@ -1354,3 +1354,17 @@ vendor/lib/libwfdmmservice.so|8dbc75863971df4eadf99114354cfc0a7987758c
 vendor/lib/libwfdmodulehdcpsession.so|bed1f85a71330dd04a9ce5aba4ed40b15fc0f3f2
 vendor/lib64/libmmosal.so|b4de8a81ac6e600bfa2e15f9bee20c6ac30e2d89
 vendor/lib64/libwfdhdcpcp.so|a9f56d29d9243272ca73d564977022d3aef3b8e4
+
+# WiFi Display Miracast - from phoenix_sprout - RKQ1.201123.002
+bin/sigma_miracasthalservice|d3ea9b17ea0f0b12a4a5a33465aa81342ce37d5b
+etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc|d073c96a791f59320d8daab0607b61c3ecc3a17e
+lib/libmiracastsystem.so|8c6bfdc3eea13c06347f500c3d3793f76eb29c2a
+lib/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so|8d1c42d80bcea6cfdc2784bea5da3d5e9a840c12
+lib/vendor.qti.hardware.sigma_miracast@1.0.so|a313e9c756de27be422ac4140cb28e60e1d07097
+lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so|79a7bca89d337b1cd17224524d328f208275bf1b
+lib64/libmiracastsystem.so|54ea706dafafa768b5b1197b6fca1c8ca32951bc
+lib64/vendor.qti.hardware.sigma_miracast@1.0.so|1b6a3ea7e7da8e094897aa0c10e96e474a5a609c
+vendor/lib/libmiracast.so|a2fad1fd77cff83b5fe21ceb8d910731cc3663ee
+vendor/lib/vendor.qti.hardware.sigma_miracast@1.0.so|7bdca50382e8c764bc440b0f222d77f6a6666580
+vendor/lib64/libmiracast.so|5944569d01277200b5c7729d10801c5634ab9e39
+vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so|7f486b994b988cc47428e96eec5cead0101cf157
