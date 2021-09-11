@@ -153,7 +153,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     android.hardware.camera.provider@2.6:64 \
     libdng_sdk.vendor \
-    vendor.qti.hardware.camera.device@1.0:64
+    vendor.qti.hardware.camera.device@1.0:64 \
+    Snap
 
 # Consumerir
 PRODUCT_PACKAGES += \
@@ -275,6 +276,7 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.device.rc \
     init.msm.usb.configfs.rc \
+    init.performance_level.rc \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.rc \
